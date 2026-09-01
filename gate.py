@@ -32,3 +32,19 @@ for i in range(10, 2, -2):
     s += i
 
 print(s)
+
+
+
+
+
+
+
+
+
+x = 5
+y = 10
+
+if x < 10 and y > 5:
+    x = x + y
+
+print(x)
