@@ -21,3 +21,14 @@ b = fun(a)
 
 print(a)
 print(b)
+
+
+
+
+
+s = 0
+
+for i in range(10, 2, -2):
+    s += i
+
+print(s)
