@@ -6,3 +6,18 @@ def g(x):
 
 x = g(3)
 print(f(x))
+
+
+
+
+
+
+def fun(x):
+    x.append(10)
+    return x
+
+a = [1, 2]
+b = fun(a)
+
+print(a)
+print(b)
