@@ -53,4 +53,14 @@ def f(x):
 def g(x):
     return f(x) * f(x)
 
-print(g(2))
+print(g(2)) 
+
+
+
+
+def fun(n):
+    if n <= 1:
+        return 1
+    return fun(n-1) + fun(n-2)
+
+print(fun(4))
