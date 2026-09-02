@@ -17,3 +17,16 @@ b = fun(a)
 
 print(a)
 print(b)
+
+
+
+
+
+
+
+
+def fun(a, b=3):
+    return a * b
+
+print(fun(4))
+print(fun(4, 5))
