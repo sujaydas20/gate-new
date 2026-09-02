@@ -43,3 +43,14 @@ def fun():
 
 print(fun())
 print(x)
+
+
+
+
+def f(x):
+    return x + 1
+
+def g(x):
+    return f(x) * f(x)
+
+print(g(2))
