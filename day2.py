@@ -30,3 +30,16 @@ def fun(a, b=3):
 
 print(fun(4))
 print(fun(4, 5))
+
+
+
+
+
+x = 10
+
+def fun():
+    x = 20
+    return x
+
+print(fun())
+print(x)
