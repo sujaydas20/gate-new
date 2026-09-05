@@ -59,3 +59,18 @@ for i in range(1, 5):
         count += 1
 
 print(count)
+
+
+# q6
+x = 5
+
+def f():
+    x = 10
+
+    def g():
+        return x + 5
+
+    return g()
+
+print(f())
+print(x)
