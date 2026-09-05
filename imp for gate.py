@@ -46,3 +46,16 @@ d["c"] = d["a"] + d["b"]
 d["a"] = d["c"] * 2
 
 print(d)
+
+# q5
+
+
+count = 0
+
+for i in range(1, 5):
+    for j in range(1, 5):
+        if i + j == 5:
+            break
+        count += 1
+
+print(count)
