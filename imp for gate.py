@@ -122,3 +122,16 @@ b = [5, 6, 7]
 result = list(map(lambda x, y: x * y, a, b))
 
 print(sum(result))
+
+
+
+class Box:
+    def __init__(self, values):
+        self.values = values
+
+    def __contains__(self, item):
+        return item % 2 == 0
+
+b = Box([1, 3, 5])
+
+print(4 in b, 3 in b)
