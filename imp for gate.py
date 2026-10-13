@@ -106,3 +106,9 @@ y = d.setdefault("c", 6)
 d["a"] += y
 
 print(x + d["a"] + d["c"])
+
+
+a = 12
+b = 10
+
+print((a & b) + (a ^ b))
