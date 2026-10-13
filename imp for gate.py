@@ -135,3 +135,10 @@ class Box:
 b = Box([1, 3, 5])
 
 print(4 in b, 3 in b)
+
+
+
+a = pow(3, 4, 5)
+b = pow(2, 5, 7)
+
+print(a * b)
