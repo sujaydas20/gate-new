@@ -93,3 +93,16 @@ data = [(3, 8), (1, 9), (2, 4), (4, 6)]
 result = sorted(data, key=itemgetter(1))
 
 print(result[0][0] + result[-1][0])
+
+
+
+
+
+d = {"a": 2, "b": 4}
+
+x = d.setdefault("a", 10)
+y = d.setdefault("c", 6)
+
+d["a"] += y
+
+print(x + d["a"] + d["c"])
