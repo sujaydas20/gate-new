@@ -85,3 +85,11 @@ def f(n):
     return n + f(n-2)
 
 print(f(7))
+
+
+from operator import itemgetter
+
+data = [(3, 8), (1, 9), (2, 4), (4, 6)]
+result = sorted(data, key=itemgetter(1))
+
+print(result[0][0] + result[-1][0])
