@@ -112,3 +112,13 @@ a = 12
 b = 10
 
 print((a & b) + (a ^ b))
+
+
+
+
+a = [1, 2, 3, 4]
+b = [5, 6, 7]
+
+result = list(map(lambda x, y: x * y, a, b))
+
+print(sum(result))
